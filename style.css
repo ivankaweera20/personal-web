@@ -1,0 +1,101 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+/* STYLE SECTIONING TAGS */
+header {
+  background-color: #C0F0B2;
+}
+body {
+ background-color: #14405C; 
+  text-align: center;
+}
+
+main {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* STYLE TEXT */
+h1 {
+  color: #14405C;
+  text-align: center;
+  font-size: 50px;
+  padding: 10px;
+  text-decoration: underline;
+}
+
+#intro {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #14405c;
+  font-weight: bold;
+  font-size: 30px;
+  display: block;
+  text-align: center;
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #c0f0b2;
+  text-align: center;
+  font-size: 20px;
+}
+
+#port_intro {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #14405c;
+  font-weight: bold;
+  font-size: 30px;
+  display: block;
+  text-align: center;
+}
+
+/* STYLE IMAGES */
+
+img { 
+  margin-top: 5px;
+  margin-bottom: 5px;
+  max-height: 500px;
+  max-width: 500px;
+  border: 10px, solid, #D4E9F7;
+}
+
+.port_img {
+  border: 10px, dotted, #D4E9F7;
+}
+/* STYLE NAV BAR */
+
+nav {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 1em;
+}
+
+li {
+  display: block;
+}
+
+li a {
+  text-decoration: none;
+  color: #e8ecf2;
+}
+
+li a:hover {
+  background-color: #4F3B5F;
+}
